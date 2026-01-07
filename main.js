@@ -4,7 +4,7 @@ const rangeFill = document.querySelector(".range-fill");
 const minText = document.getElementById("min-value");
 const maxText = document.getElementById("max-value");
 
-let priceGap = 100; 
+let priceGap = 1; 
 function updateEverything(minVal, maxVal) {
     const minLimit = parseInt(rangeInputs[0].min);
     const maxLimit = parseInt(rangeInputs[0].max);
