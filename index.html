@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Range</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!-- <div class="container">
+        <div class="heading">Slide to fit your Price Range</div>
+        <div class="wrap-price">
+            <div>
+                <label for="">Min</label>
+                <p id="min-value">$700</p>
+            </div>
+            
+            <div>
+                <label for="">Max</label>
+                <p id="max-value">$3000</p>
+            </div>
+        </div>
+
+        <div class="range-slider">
+            <div class="range-fill"></div>
+
+            <input type="range" class="min-price" value="700" min="0" max="5000" step="10">
+            <input type="range" class="max-price" value="3000" min="0" max="5000" step="10">
+        </div>
+    </div> -->
+    <div class="container">
+    <div class="heading">Slide or type to fit your Price Range!</div>
+    
+    <div class="input-box">
+        <div class="field">
+            <span>Min</span>
+            <input type="number" class="input-min" value="700">
+        </div>
+        <div class="separator"></div>
+        <div class="field">
+            <span>Max</span>
+            <input type="number" class="input-max" value="3000">
+        </div>
+    </div>
+
+    <div class="wrap-price">
+        <div>
+            <p id="min-value">$700</p>
+        </div>
+        <div>
+            <p id="max-value">$3000</p>
+        </div>
+    </div>
+
+    <div class="range-slider">
+        <div class="range-fill"></div>
+        <input type="range" class="min-price" value="700" min="0" max="5000" step="10">
+        <input type="range" class="max-price" value="3000" min="0" max="5000" step="10">
+    </div>
+</div>
+</body>
+</html> 
